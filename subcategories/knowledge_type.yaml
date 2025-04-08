@@ -1,0 +1,26 @@
+# Knowledge Type subcategories
+parent: knowledge_type
+subcategories:
+  - id: policy_and_procedure
+    name: Policy and Procedure
+    description: Official company policies and procedures
+    
+  - id: overview
+    name: Overview
+    description: General information and overviews
+    
+  - id: brand_standard
+    name: Brand Standard
+    description: Official brand guidelines and standards
+    
+  - id: best_practice
+    name: Best Practice
+    description: Recommended approaches and best practices
+    
+  - id: walkthrough
+    name: Walkthrough
+    description: Step-by-step instructions and walkthroughs
+    
+  - id: troubleshooting
+    name: Troubleshooting
+    description: Troubleshooting guides and solutions
