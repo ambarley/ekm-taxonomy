@@ -1,0 +1,62 @@
+# Locale subcategories
+parent: locale
+subcategories:
+  - id: global
+    name: Global
+    description: Content that applies globally
+    
+  - id: amer
+    name: AMER
+    description: Americas region
+    subcategories:
+      - id: us
+        name: US
+        description: United States
+        
+      - id: canada
+        name: Canada
+        description: Canada
+        
+  - id: emea
+    name: EMEA
+    description: Europe, Middle East, and Africa region
+    subcategories:
+      - id: france
+        name: France
+        description: France
+        
+      - id: germany
+        name: Germany
+        description: Germany
+        
+      - id: sweden
+        name: Sweden
+        description: Sweden
+        
+      - id: spain
+        name: Spain
+        description: Spain
+        
+      - id: uk
+        name: UK
+        description: United Kingdom
+        
+      - id: south_africa
+        name: South Africa
+        description: South Africa
+        
+  - id: apac
+    name: APAC
+    description: Asia-Pacific region
+    subcategories:
+      - id: australia
+        name: Australia
+        description: Australia
+        
+      - id: new_zealand
+        name: New Zealand
+        description: New Zealand
+        
+      - id: japan
+        name: Japan
+        description: Japan
