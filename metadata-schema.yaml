@@ -1,0 +1,15 @@
+# Metadata schema definitions
+properties:
+  knowledge_type:
+    type: reference
+    reference_to: knowledge_type
+    multiple: false
+    description: Type of knowledge content
+    required: true
+    
+  locale:
+    type: reference
+    reference_to: locale
+    multiple: true
+    description: Geographic regions this content applies to
+    required: true
