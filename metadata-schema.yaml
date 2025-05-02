@@ -13,3 +13,10 @@ properties:
     multiple: true
     description: Geographic regions this content applies to
     required: true
+
+  audience:
+    type: reference
+    reference_to: audience
+    multiple: true
+    description: Target audience for this content
+    required: true
