@@ -1,0 +1,14 @@
+# Audience subcategories
+parent: audience
+subcategories:
+  - id: ncino_employee
+    name: nCino Employee
+    description: Content intended for nCino employees
+    subcategories:
+      - id: manager_only
+        name: Manager-Only
+        description: Content restricted to managers
+        
+      - id: new_hire
+        name: New Hire
+        description: Content specifically for new employees
