@@ -7,3 +7,7 @@ categories:
   - id: locale
     name: Locale
     description: Geographic region the content applies to (multi select)
+
+  - id: audience
+    name: Audience
+    description: Target audience for the content (multi select)
