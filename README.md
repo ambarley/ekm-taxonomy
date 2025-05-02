@@ -28,6 +28,11 @@ This repository contains the taxonomy structure for our Enterprise Knowledge Man
     - Australia
     - New Zealand
     - Japan
+      
+- **Audience** (Hierarchical Structure, Multi-Select)
+  - nCino Employee
+    - Manager-Only
+    - New Hire
 
 ## Repository Structure
 
