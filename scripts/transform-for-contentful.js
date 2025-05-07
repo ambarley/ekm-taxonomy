@@ -16,13 +16,13 @@ const CONTENTFUL_LIMITS = {
 // Function to convert GitHub taxonomy to Contentful format
 function transformTaxonomy() {
   try {
-    // Load core categories
+    // Load core categories - UPDATED PATH
     const coreCategories = yaml.load(
-      fs.readFileSync(path.join(__dirname, '../taxonomy/core-categories.yaml'), 'utf8')
+      fs.readFileSync(path.join(__dirname, '../core-categories.yaml'), 'utf8')
     );
     
-    // Load all subcategory files
-    const subcategoriesPath = path.join(__dirname, '../taxonomy/subcategories');
+    // Load all subcategory files - UPDATED PATH
+    const subcategoriesPath = path.join(__dirname, '../subcategories');
     const subcategoryFiles = fs.readdirSync(subcategoriesPath);
     
     // Initialize Contentful format - updated for April 2025 CDA format
@@ -132,7 +132,7 @@ function transformTaxonomy() {
   }
 }
 
-// Helper function to process subcategories recursively
+// Helper function remains unchanged
 function processSubcategories(subcategories, schemeId, parentId, contentfulFormat, processedConcepts, conceptCounts, currentDepth) {
   if (!subcategories || !Array.isArray(subcategories)) {
     return currentDepth;
