@@ -1,4 +1,4 @@
-# Metadata schema definitions
+# Metadata schema definitions - Updated for April 2025 CDA compatibility
 properties:
   knowledge_type:
     type: reference
@@ -6,6 +6,7 @@ properties:
     multiple: false
     description: Type of knowledge content
     required: true
+    cda_enabled: true  # Enable delivery via Content Delivery API
     
   locale:
     type: reference
@@ -13,6 +14,7 @@ properties:
     multiple: true
     description: Geographic regions this content applies to
     required: true
+    cda_enabled: true  # Enable delivery via Content Delivery API
 
   audience:
     type: reference
@@ -20,3 +22,10 @@ properties:
     multiple: true
     description: Target audience for this content
     required: true
+    cda_enabled: true  # Enable delivery via Content Delivery API
+
+# CDA optimization settings for taxonomy
+delivery_settings:
+  include_taxonomy: true  # Include taxonomy data in CDA responses
+  taxonomy_depth: 3       # Maximum depth of taxonomy hierarchy to include
+  include_alternative_labels: true  # Include alternative labels in taxonomy data
