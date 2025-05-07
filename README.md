@@ -36,15 +36,16 @@ This repository contains the taxonomy structure for our Enterprise Knowledge Man
 
 ## Repository Structure
 
-- `taxonomy/core-categories.yaml`: Defines the main category types
-- `taxonomy/subcategories/`: Contains the detailed taxonomy for each category
+- `core-categories.yaml`: Defines the main category types
+- `metadata-schema.yaml`: Defines schema and CDA compatibility settings
+- `subcategories/`: Contains the detailed taxonomy for each category
 - `scripts/`: Contains scripts to transform and import the taxonomy
 
 ## How to Use This Repository
 
 ### 1. Make Changes to the Taxonomy
 
-Edit the YAML files in the `taxonomy/` directory to update the taxonomy structure.
+Edit the YAML files to update the taxonomy structure.
 
 ### 2. Import to Contentful
 
